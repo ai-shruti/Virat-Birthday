@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday Virat</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(to bottom, #1a1a4b, #000000);
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            animation: glow 1s infinite alternate;
+        }
+
+        h2 {
+            font-size: 35px;
+        }
+
+        .cake {
+            font-size: 100px;
+            margin-top: 30px;
+            animation: bounce 1s infinite alternate;
+        }
+
+        .balloon {
+            position: absolute;
+            font-size: 55px;
+            animation: float 3s infinite ease-in-out;
+        }
+
+        .b1 { left: 10%; top: 20%; }
+        .b2 { right: 10%; top: 25%; }
+        .b3 { left: 20%; bottom: 15%; }
+        .b4 { right: 20%; bottom: 20%; }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px white;
+            }
+            to {
+                text-shadow: 0 0 30px yellow, 0 0 50px pink;
+            }
+        }
+
+        @keyframes bounce {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(-20px);
+            }
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-30px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="balloon b1">🎈</div>
+    <div class="balloon b2">🎈</div>
+    <div class="balloon b3">🎈</div>
+    <div class="balloon b4">🎈</div>
+
+    <h1>🎉 HAPPY BIRTHDAY 🎉</h1>
+
+    <h2>VIRAT ❤️</h2>
+
+    <div class="cake">🎂</div>
+
+    <h2>Have a Wonderful Day! ✨</h2>
+
+</body>
+</html>
